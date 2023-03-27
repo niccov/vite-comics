@@ -125,7 +125,9 @@ import AppSeries from './AppSeries.vue';
 
 <template>
     <div id="jumbo">
-        <div id="jumbo-img"></div>
+        <div id="jumbo-img">
+          <div id="titolo-jumbo"><b>CURRENT SERIES</b></div>
+        </div>
 
         <div id="jumbo-top">
             <div id="container-series">
@@ -158,6 +160,19 @@ import AppSeries from './AppSeries.vue';
        height: 300px;
 
        background-image: url(../../public/jumbotron.jpg);
+
+       position: relative;
+
+       #titolo-jumbo{
+        padding: 10px 30px;
+        background-color: #0282F9;
+
+        color: white;
+
+        position: absolute;
+        left: 100px;
+        bottom: -20px;
+       }
      }
     
      #jumbo-top {

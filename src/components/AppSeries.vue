@@ -30,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 
 .serie {
-    padding: 15px;
+    padding: 30px 15px 15px 15px;
 
     width: calc(100% / 6);
     
