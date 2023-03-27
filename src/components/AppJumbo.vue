@@ -160,6 +160,7 @@ import AppSeries from './AppSeries.vue';
        height: 300px;
 
        background-image: url(../../public/jumbotron.jpg);
+       background-size: cover;
 
        position: relative;
 
