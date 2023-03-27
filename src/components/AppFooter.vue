@@ -126,6 +126,7 @@
     height: 335px;
     
     background-image: url(../../public/footer-bg.jpg);
+    background-size: cover;
 
     display: flex;
     gap: 30px;
